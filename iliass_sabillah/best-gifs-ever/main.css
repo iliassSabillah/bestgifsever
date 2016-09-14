@@ -1,0 +1,39 @@
+html,body {
+    background-color: black;
+    background-size: 100%;
+	min-height: 100%;
+    position: relative;
+    color: white;
+}
+
+#searchInput {
+	font-size: 20px;
+    height: 60px;
+    padding: 0 30px;
+    background: none;
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    color: white;
+    margin-top: 200px;
+}
+.input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+/* When the input field gets focus, change its width to 60% */
+input[type=text]:focus {
+    width: 60%;
+}
+#btn {
+    width: 60%;
+    height: 60%;
+    background-color: #3b5998;
+    color: white;
+
+}
+a {
+    color: white;
+}
